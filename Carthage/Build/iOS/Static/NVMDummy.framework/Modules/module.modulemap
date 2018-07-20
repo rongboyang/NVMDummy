@@ -1,0 +1,11 @@
+framework module NVMDummy {
+  umbrella header "NVMDummy.h"
+
+  export *
+  module * { export * }
+}
+
+module NVMDummy.Swift {
+    header "NVMDummy-Swift.h"
+    requires objc
+}
