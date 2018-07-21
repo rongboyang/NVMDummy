@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {'DEFINES_MODULE' => 'YES'}
   s.requires_arc     = true
   s.platform         = :ios, '8.0'
-  s.static_framework = true
+  # s.static_framework = true
 
   s.source_files     = 'NVMDummy/*.{swift,h,m}'
 end
